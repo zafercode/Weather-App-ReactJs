@@ -1,0 +1,40 @@
+.container-footer {
+  max-width: 1080px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main {
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.main a {
+  color: rgb(63, 62, 62);
+  letter-spacing: 15px;
+  padding-right: 10px;
+}
+
+.main a:hover {
+    color: #2E2A6D;
+    transition:.5s linear;
+}
+
+.desc {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(63, 62, 62);
+}
+
+.desc a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #2E2A6D;
+}
+
+.desc a:hover {
+    text-decoration-line: underline;
+}
